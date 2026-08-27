@@ -1,0 +1,13 @@
+timestamp,source_ip,destination_ip,hostname,user,event_type,process,domain,action
+2026-08-27 10:00:05,10.0.0.25,10.0.0.1,HOST-12,user12,network,,,connection
+2026-08-27 10:01:12,10.0.0.30,10.0.0.1,HOST-15,user15,dns,,company.local,query
+2026-08-27 10:02:20,91.204.12.77,10.0.0.22,HOST-12,user12,network,,,external_connection
+2026-08-27 10:02:55,10.0.0.22,10.0.0.1,HOST-12,user12,dns,,update-check.example.test,query
+2026-08-27 10:03:40,10.0.0.22,10.0.0.1,HOST-12,user12,process,powershell.exe,,execute
+2026-08-27 10:04:30,10.0.0.22,91.204.12.77,HOST-12,user12,network,,,outbound_connection
+2026-08-27 10:05:18,10.0.0.22,10.0.0.35,HOST-12,user12,network,,,internal_connection
+2026-08-27 10:06:05,10.0.0.22,10.0.0.1,HOST-12,user12,file,powershell.exe,,create
+2026-08-27 10:06:48,10.0.0.22,10.0.0.35,HOST-12,user12,network,,,internal_connection
+2026-08-27 10:07:30,10.0.0.22,10.0.0.1,HOST-12,user12,process,cmd.exe,,execute
+2026-08-27 10:08:16,10.0.0.22,10.0.0.1,HOST-12,user12,file,cmd.exe,,modify
+2026-08-27 10:09:25,10.0.0.40,10.0.0.1,HOST-18,user18,network,,,connection
